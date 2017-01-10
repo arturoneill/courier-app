@@ -29,10 +29,10 @@ button.navbar-toggle {
     
 }
     
-button.navbar-toggle:active {
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color:white;
-    border:0px;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color:red;
 }
