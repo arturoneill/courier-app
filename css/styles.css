@@ -84,7 +84,7 @@ h2 {
         padding-left: 10px;
     }
     
-    li:nth-child(2):hover, li:nth-child(2):focus, li:nth-child(2):active {
+    li:hover:nth-child(2), li:focus:nth-child(2), li:active:nth-child(2) {
         background-color:fuchsia;
         color: white;
     
