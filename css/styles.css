@@ -24,7 +24,7 @@ body{
 }
 
 li:hover {
-    background-color: DodgerBlue;
+    background-color: blue;
 }
 
 button.navbar-toggle {
