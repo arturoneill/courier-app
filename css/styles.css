@@ -23,6 +23,10 @@ body{
     
 }
 
+li:hover {
+    background-color: DodgerBlue;
+}
+
 button.navbar-toggle {
     background-color:white;
     border:0px;
