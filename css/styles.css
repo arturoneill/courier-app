@@ -28,7 +28,7 @@ button.navbar-toggle {
     border:0px;
 }
 .navbar-toggle .icon-bar {
-    color:black;
+    background-color:black;
 }
 
 
