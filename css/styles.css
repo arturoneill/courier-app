@@ -70,8 +70,17 @@ h2 {
     margin-bottom: 20px;
 }
 
-/*@media screen and (min-width: 767px){
-    #collapsable-nav {
-  visibility:hidden;
-    }}
-*/
+@media screen and (min-width: 767px){
+  
+ #collapsable-nav {
+  background-color:white;
+  width: 70%;
+        }
+   
+    li {
+        color:black;
+        margin-right: 20px;
+    }
+    
+}
+
