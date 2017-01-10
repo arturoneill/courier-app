@@ -89,7 +89,7 @@ h2 {
         color: white;
     
 }
-        li:nth-child(3):hover, li:nth-child(3):focus, li:nth-child(3):active {
+        li:hover:nth-child(3), li:focus:nth-child(3), li:active:nth-child(3) {
         background-color:red;
         color: white;
     
