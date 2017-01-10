@@ -26,6 +26,12 @@ body{
 button.navbar-toggle {
     background-color:white;
     border:0px;
+    
+}
+    
+button.navbar-toggle:active {
+    background-color:white;
+    border:0px;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color:red;
