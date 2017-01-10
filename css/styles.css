@@ -27,8 +27,8 @@ button.navbar-toggle {
     background-color:white;
     border:0px;
 }
-.navbar-toggle .icon-bar {
-    background-color:black;
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:red;
 }
 
 
