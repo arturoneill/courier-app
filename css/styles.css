@@ -3,6 +3,10 @@
 
 
 
+*{
+    font-family:font-family: 'Nunito', sans-serif;
+}
+
 #header-nav{
     background-color: deepskyblue;
     
