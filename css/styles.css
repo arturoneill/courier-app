@@ -130,7 +130,7 @@ div.circle {
         bottom: 20px;
         left: 20px;
     }
-	.circle:hover:nth-child(1) .circle:focus:nth-child(1) .circle:active:nth-child(1){
+	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
 	    background-color:white;
 		color:black;
         position: absolute;
@@ -145,7 +145,7 @@ div.circle {
         top: -70px;
         left: 75px;
     }
-	.circle:hover:nth-child(2) .circle:focus:nth-child(2) .circle:active:nth-child(2){
+	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
 	    background-color:white;
 		color:black;
         position: absolute;
@@ -160,7 +160,7 @@ div.circle {
         bottom: 20px;
         right: 20px;
     }
-	.circle:hover:nth-child(3) .circle:focus:nth-child(3) .circle:active:nth-child(3){
+	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
 	    background-color:white;
 		color:black;
         position: absolute;
