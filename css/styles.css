@@ -94,4 +94,36 @@ h2 {
         color: white;
     
 }
+    
+.tricircle {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    }
+    
+ .circle {
+    border-radius: 50%;
+	width: 200px;
+	height: 200px; 
+     
+    }
+    
+    .circle:nth-child(1) {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+    .circle:nth-child(2) {
+        position: absolute;
+        top: 0px;
+        left: 300px;
+    }
+    
+    .circle:nth-child(3) {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+    
+
 
