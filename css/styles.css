@@ -174,7 +174,7 @@ div.circle {
         bottom: 20px;
         left: 20px;
     }
-	div.circle:hover:nth-child(1), div.circle:focus:nth-child(1), div.circle:active:nth-child(1){
+	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
 	    background-color:white;
 		color:black;
 		opacity:1;
