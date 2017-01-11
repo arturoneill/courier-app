@@ -114,7 +114,7 @@ div.circle {
     .circle:nth-child(2) {
 	    background-color:DodgerBlue;
         position: absolute;
-        top: -70px;
+        top: 35px;
         left: 75px;
     }
 	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
@@ -126,7 +126,7 @@ div.circle {
     .circle:nth-child(3) {
 	    background-color:red;
         position: absolute;
-       top: 0px;
+       top: 105px;
        left: 75px;
     }
 	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
@@ -134,7 +134,7 @@ div.circle {
 		color:black;
 		opacity:1;
     }
-}
+
     
 
 @media screen and (min-width: 767px){
