@@ -81,6 +81,13 @@ section {
 	
 }
 
+a {
+	   color:white;
+}
+	
+a:hover, a:focus, a:active {
+	   color:black;
+}
 h1 {
     font-family: 'Nunito', sans-serif;
     font-weight: 800;
@@ -155,9 +162,7 @@ div.circle {
 }
     
 
-    
-a:hover, a:focus, a:active {
-	   color:black;
+   
 	 
 
 	}
