@@ -116,8 +116,10 @@ h2 {
     }
 	
 div.circle {
-	padding-top:140px;
+	padding-top:50%;
 	color:white;
+	text-transform:uppercase;
+	font-weight:800px;
 
 	}
     
