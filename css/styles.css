@@ -81,12 +81,13 @@ section {
 	
 }
 
-a {
+div>a {
 	   color:white;
 }
 	
 a:hover, a:focus, a:active {
 	   color:black;
+	text-decoration:none;
 }
 h1 {
     font-family: 'Nunito', sans-serif;
