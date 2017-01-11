@@ -155,7 +155,11 @@ div.circle {
     
 
     
- 
+a:hover, a:focus, a:active {
+	   color:white;
+	 
+
+	}
     
     .circle:nth-child(1) {
 	    background-color:fuchsia;
