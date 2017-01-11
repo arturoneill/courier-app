@@ -114,6 +114,14 @@ h2 {
 	 height:150px;
 	 opacity: 0.75;
     }
+	
+div.circle {
+	position:absolute;
+	top:50%;
+	color:white;
+	opacity: 1;
+	
+	}
     
     .circle:nth-child(1) {
 	    background-color:fuchsia;
