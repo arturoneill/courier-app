@@ -130,7 +130,11 @@ div.circle {
         padding-right: 10px;
         padding-left: 10px;
     }
-    
+	
+   a:hover {
+	   color:white;
+	   
+	}
    li:hover:nth-child(2), li:focus:nth-child(2), li:active:nth-child(2) {
         background-color:fuchsia;
         color: white;
