@@ -42,8 +42,9 @@ li:hover, li:focus, li:active {
     color:white;
 }
 
- a:hover {
+ a:hover, a:focus, a:active {
 	   color:white;
+	 
 	   
 	}
 
