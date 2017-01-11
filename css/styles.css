@@ -33,10 +33,15 @@ body{
     
 }
 
-li:hover, li:focus, li:active {
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>li>a:active {
     background-color: DodgerBlue;
     color:white;
 }
+
 
 button.navbar-toggle {
     background-color:white;
