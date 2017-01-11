@@ -116,8 +116,7 @@ h2 {
     }
 	
 div.circle {
-	position:absolute;
-	top:50%;
+	vertical-align: middle;
 	color:white;
 	opacity: 1;
 	
