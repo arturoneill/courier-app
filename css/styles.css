@@ -118,21 +118,21 @@ h2 {
     .circle:nth-child(1) {
 	    background-color:fuchsia;
         position: absolute;
-        bottom: 0px;
-        left: 0px;
+        bottom: 25px;
+        left: 25px;
     }
     .circle:nth-child(2) {
 	    background-color:DodgerBlue;
         position: absolute;
-        top: -50px;
+        top: -60px;
         left: 75px;
     }
     
     .circle:nth-child(3) {
 	    background-color:red;
         position: absolute;
-        bottom: 0px;
-        right: 0px;
+        bottom: 25px;
+        right: 25px;
     }
 }
     
