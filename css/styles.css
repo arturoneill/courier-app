@@ -109,22 +109,25 @@ h2 {
     border-radius: 50%; 
     border-color: black;
     border-width: 10px;
-	 width:100px;
-	 height:100px;
+	 width:150px;
+	 height:150px;
     }
     
     .circle:nth-child(1) {
+	    background-color:fuchsia;
         position: absolute;
         bottom: 0px;
         left: 0px;
     }
     .circle:nth-child(2) {
+	    background-color:DodgerBlue;
         position: absolute;
-        top: 0px;
-        left: 100px;
+        top: -25px;
+        left: 75px;
     }
     
     .circle:nth-child(3) {
+	    background-color:red;
         position: absolute;
         bottom: 0px;
         right: 0px;
