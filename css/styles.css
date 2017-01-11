@@ -114,6 +114,10 @@ h2 {
 	 height:150px;
 	 opacity: 0.75;
     }
+.circle:hover, .circle:focus, .circle:active {
+	background-color:white;
+	opacity:1;
+	color:black;
 	
 div.circle {
 	padding-top:21%;
