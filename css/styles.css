@@ -112,6 +112,7 @@ h2 {
     border-width: 10px;
 	 width:150px;
 	 height:150px;
+	 opacity: 0.75;
     }
     
     .circle:nth-child(1) {
@@ -123,7 +124,7 @@ h2 {
     .circle:nth-child(2) {
 	    background-color:DodgerBlue;
         position: absolute;
-        top: -25px;
+        top: -50px;
         left: 75px;
     }
     
