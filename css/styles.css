@@ -42,7 +42,7 @@ li:hover, li:focus, li:active {
     color:white;
 }
 
- .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>li>a:active {
+ .navbar-nav>ul>li>a:hover, .navbar-nav>ul>li>a:focus, .navbar-nav>ul>li>a:active {
 	   color:white;
 	 
 	   
