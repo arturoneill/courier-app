@@ -119,28 +119,28 @@ div.circle {
 	padding-top:50%;
 	color:white;
 	text-transform:uppercase;
-	font-weight:800px;
+	font-weight:800;
 
 	}
     
     .circle:nth-child(1) {
 	    background-color:fuchsia;
         position: absolute;
-        bottom: 25px;
-        left: 25px;
+        bottom: 20px;
+        left: 20px;
     }
     .circle:nth-child(2) {
 	    background-color:DodgerBlue;
         position: absolute;
-        top: -60px;
+        top: -70px;
         left: 75px;
     }
     
     .circle:nth-child(3) {
 	    background-color:red;
         position: absolute;
-        bottom: 25px;
-        right: 25px;
+        bottom: 20px;
+        right: 20px;
     }
 }
     
