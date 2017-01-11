@@ -33,7 +33,7 @@ body{
     
 }
 
-li>a:hover, li>a:focus, li>a:active {
+li:hover, li:focus, li:active {
     background-color: DodgerBlue;
     color:white;
 }
@@ -120,18 +120,18 @@ div.circle {
   
         }
    
-     a {
+     li {
         color:black;
         padding-right: 10px;
         padding-left: 10px;
     }
     
-   a:hover:nth-child(2), a:focus:nth-child(2), a:active:nth-child(2) {
+   li:hover:nth-child(2), li:focus:nth-child(2), li:active:nth-child(2) {
         background-color:fuchsia;
         color: white;
     
 }
-        li>a:hover:nth-child(3), li>a:focus:nth-child(3), li>a:active:nth-child(3) {
+        li:hover:nth-child(3), li:focus:nth-child(3), li:active:nth-child(3) {
         background-color:red;
         color: white;
     
