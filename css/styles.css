@@ -108,7 +108,7 @@ h2 {
  .circle {
 	background-color:black;
     border-radius: 50%; 
-    border-color: black;
+    border-color: white;
     border-width: 10px;
 	 width:150px;
 	 height:150px;
@@ -133,9 +133,6 @@ div.circle {
 	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
 	    background-color:white;
 		color:black;
-        position: absolute;
-        bottom: 20px;
-        left: 20px;
 		opacity:1;
     }
 	
@@ -148,9 +145,6 @@ div.circle {
 	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
 	    background-color:white;
 		color:black;
-        position: absolute;
-        bottom: 20px;
-        left: 20px;
 		opacity:1;
     }
     
@@ -163,9 +157,6 @@ div.circle {
 	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
 	    background-color:white;
 		color:black;
-        position: absolute;
-        bottom: 20px;
-        left: 20px;
 		opacity:1;
     }
 }
