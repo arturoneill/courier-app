@@ -197,7 +197,7 @@ div>a:hover, div>a:focus, div>a:active {
     
 
    
-	
+/*-------------ARRANGING CIRCLES IN PYRAMID-------------------------------------*/
     
     .circle:nth-child(1) {
 	    background-color:fuchsia;
@@ -245,6 +245,9 @@ div>a:hover, div>a:focus, div>a:active {
 		margin-bottom: 125px;
 	}
 	
+	
+	
+/*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
 	 .circle:nth-child(1) {
 	    background-color:fuchsia;
         position: absolute;
