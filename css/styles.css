@@ -129,7 +129,7 @@ h2 {
 
 
 div.circle {
-	padding-top:21%;
+	
 	color:white;
 	text-transform:uppercase;
 	font-weight:800;
@@ -138,7 +138,7 @@ div.circle {
 
 div.circle:hover {
 	
-	padding-top:21%;
+	
 	color:black;
 	text-transform:uppercase;
 	font-weight:800;
