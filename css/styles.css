@@ -81,6 +81,13 @@ section {
 	
 }
 
+.circle_link {
+
+    display:inline-block;
+    width: 100%;
+    line-height: 150px;    
+}
+
 div>a {
 	   color:white;
 }
