@@ -72,11 +72,10 @@ li:hover, li:focus, li:active {
     background-color: DodgerBlue;
 
 }
-
-li>a:hover, li>a:focus, li>a:active{
+ul#nav-list:hover {
 	color:white;
-	
 }
+
 
  /*---BROKEN
 .navbar-nav>ul>li>a:hover, .navbar-nav>ul>li>a:focus, .navbar-nav>ul>li>a:active {
