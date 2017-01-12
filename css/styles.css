@@ -73,6 +73,9 @@ li:hover, li:focus, li:active {
 
 }
 
+li>a:hover, li>a:focus, li>a:active{
+	color:white;
+
  /*---BROKEN
 .navbar-nav>ul>li>a:hover, .navbar-nav>ul>li>a:focus, .navbar-nav>ul>li>a:active {
 	   color:white;
