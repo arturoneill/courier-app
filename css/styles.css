@@ -29,7 +29,7 @@ h2 {
 
 	
 /*-----------------FOOTER---------------------------------------------------------------------*/
-.footer {
+/*.footer {
 	position: absolute;
   right: 0;
   bottom: 0;
@@ -37,6 +37,9 @@ h2 {
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
+}*/
+.navbar-fixed-bottom {
+	border-width:0;
 }
 
 /*-----------------Header----------------------------------------------------------------------*/
