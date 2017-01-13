@@ -48,9 +48,6 @@ h2 {
 
 .panel-footer {
     border: 0;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
 }
 /*-----------------Header----------------------------------------------------------------------*/
 #header-nav{
@@ -218,6 +215,12 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
         color: white;
 		opacity:0.75;
     
+}
+
+.panel-footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
     
 
