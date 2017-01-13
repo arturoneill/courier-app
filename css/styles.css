@@ -3,9 +3,14 @@
 
 
 /*-----------------HTML AND BODY TAGS------------------------------------------------------*/
+
+html{
+	position:relative;
+	min-height:100%;
+}
 body{
     font-family:'Nunito', sans-serif;
-	padding-bottom: 0px;
+	margin-bottom: 100px;
 	
 }
 
@@ -48,6 +53,17 @@ h2 {
 
 .panel-footer {
     border: 0;
+}
+
+
+footer {
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
 }
 
 /*-----------------Header----------------------------------------------------------------------*/
