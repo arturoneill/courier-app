@@ -6,7 +6,7 @@
 body{
     font-family:'Nunito', sans-serif;
 	padding-bottom: 0px;
-	position:relative;
+	
 }
 
 section {
@@ -49,6 +49,7 @@ h2 {
 .panel-footer {
     border: 0;
 }
+
 /*-----------------Header----------------------------------------------------------------------*/
 #header-nav{
     background-color: white;
