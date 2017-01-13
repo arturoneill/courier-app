@@ -6,6 +6,7 @@
 body{
     font-family:'Nunito', sans-serif;
 	padding-bottom: 0px;
+	position:relative;
 }
 
 section {
