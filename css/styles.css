@@ -44,10 +44,13 @@ h2 {
 }
 */
 
-.panel-footer {
-	border:0;
-}
 
+.panel-footer {
+    border: 0;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
 /*-----------------Header----------------------------------------------------------------------*/
 #header-nav{
     background-color: white;
