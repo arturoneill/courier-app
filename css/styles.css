@@ -283,8 +283,8 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 
 #imgBubble {
 	position: absolute;
-        top: -120px;
-        right: -65px;
+        top: -115px;
+        right: -60px;
 }
 	
 
