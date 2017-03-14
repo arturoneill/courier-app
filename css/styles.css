@@ -281,6 +281,13 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
     }
 }
 
+#imgBubble {
+	position: absolute;
+        top: -70px;
+        left: -75px;
+}
+	
+
 
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
