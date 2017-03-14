@@ -3,10 +3,10 @@
     $(function() {
         $("#imgBubble").hover(
             function() {
-                $(this).attr("src", "animated.gif");
+                $(this).attr("src", "pictures/animated.gif");
             },
             function() {
-                $(this).attr("src", "static.gif");
+                $(this).attr("src", "pictures/static.gif");
             }                         
         );                  
     });
