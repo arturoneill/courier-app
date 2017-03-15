@@ -314,7 +314,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
         top: -35px;
         left: 75px;
     }
-	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
+	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
 	    background-color:white;
 		color:black;
 		opacity:1;
@@ -326,7 +326,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
         top: 90px;
         left: 75px;
     }
-	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
+	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
 	    background-color:white;
 		color:black;
 		opacity:1;
@@ -338,7 +338,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
        top: 215px;
        left: 75px;
     }
-	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
+	.circle:hover:nth-child(4), .circle:focus:nth-child(4), .circle:active:nth-child(4){
 	    background-color:white;
 		color:black;
 		opacity:1;
@@ -346,8 +346,8 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 	
 #imgBubble {
 	position: absolute;
-        top: 180px;
-        left: 160px;
+        top: 183px;
+        left: 165px;
 }
 }
 
