@@ -13,9 +13,10 @@
  */
 
 var config = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "your-app.firebaseapp.com",
-  databaseURL: "https://your-app.firebaseio.com",
-  storageBucket: "your-app.appspot.com",
+  apiKey: "AIzaSyAHu1xHLm7--k6yYVByqJwMMFVGBbNW8xE",
+  authDomain: "hushpuppy-customer-app.firebaseapp.com",
+  databaseURL: "https://hushpuppy-customer-app.firebaseio.com",
+  storageBucket: "hushpuppy-customer-app.appspot.com",
+  messagingSenderId: "100038097390"
 };
 firebase.initializeApp(config);
