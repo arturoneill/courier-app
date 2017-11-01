@@ -11,6 +11,10 @@ html{
 body{
     font-family:'Nunito', sans-serif;
 	margin-bottom: 50px;
+	background-image: url('picture/circlelogo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 	
 }
 
