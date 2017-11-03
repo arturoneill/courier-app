@@ -156,6 +156,7 @@ footer {
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight:bold;
+    font-style: italic;
     color: white;
 
 }
@@ -270,6 +271,7 @@ div>a:hover, div>a:focus, div>a:active {
    
      li {
         color:black;
+	     font-style: italic;
         
     }
 	
