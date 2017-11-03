@@ -23,7 +23,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 (function (global) {
 
-var dc = {};
+var hp = {};
 
 var homeHtmlUrl = "snippets/landing.html";
 var allCategoriesUrl =
@@ -355,6 +355,6 @@ function insertItemPortionName(html,
 }
 
 
-global.$dc = dc;
+global.$hp = hp;
 
 })(window);
