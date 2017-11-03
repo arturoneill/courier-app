@@ -68,8 +68,8 @@ h2 {
     width:150px;
     height:150px;
     border-radius:50%;
-    margin-top: -75px; /*set to a negative number 1/2 of your height*/
-    margin-left: -75px; /*set to a negative number 1/2 of your width*/
+    margin-top: -150px; /*set to a negative number 1/2 of your height*/
+    margin-left: -150px; /*set to a negative number 1/2 of your width*/
    
     background-color: white;
     position:fixed;
