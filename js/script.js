@@ -1,15 +1,3 @@
-
-
-   // $(function() {
-     //   $("#imgBubble").hover(
-       //     function() {
-         //       $(this).attr("src", "pictures/animated.gif");
-           // },
-            //function() {
-              //  $(this).attr("src", "pictures/static.gif");
-            //}                         
-        //);                  
-   // });
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
   // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
