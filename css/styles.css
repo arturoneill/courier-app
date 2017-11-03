@@ -19,9 +19,11 @@ body{
 	
 }
 
-section {
-    
-    margin-top: 50px;
+.landing-block {
+	min-height:50%;
+	background-color:white;
+	opacity:0.5;
+
 	
 }
 	
