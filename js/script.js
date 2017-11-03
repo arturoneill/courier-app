@@ -147,7 +147,7 @@ function chooseRandomCategory (categories) {
 hp.loadMenuCategories = function () {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
-    allCategoriesUrl,
+    allRestaurantsURL,
     buildAndShowCategoriesHTML);
 };
 
