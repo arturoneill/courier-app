@@ -69,7 +69,7 @@ h2 {
     height:150px;
     border-radius:50%;
     margin-top: -150px; /*set to a negative number 1/2 of your height*/
-    margin-left: -150px; /*set to a negative number 1/2 of your width*/
+    margin-left: -75px; /*set to a negative number 1/2 of your width*/
    background-image: url('/courier-app/pictures/hushpuppydude.png');
     background-color: white;
     position:fixed;
