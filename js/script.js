@@ -16,7 +16,7 @@ var hp = {};
 var homeHtmlUrl = "snippets/landing.html";
 var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
-var categoriesTitleHtml = "snippets/categories-title-snippet.html";
+var categoriesTitleHtml = "snippets/restaurants-title-snippet.html";
 var categoryHtml = "snippets/restaurants-snippet.html";
 var menuItemsUrl =
   "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
