@@ -331,13 +331,13 @@ div>a:hover, div>a:focus, div>a:active {
 	
 	#cyclist {
 
-    top: 90%;
-    left:90%;
-    width:150px;
-    height:150px;
+    top: 95%;
+    left:95%;
+    width:120px;
+    height:120px;
     border-radius:50%;
-    margin-top: -150px; /*set to a negative number 1/2 of your height*/
-    margin-left: -75px; /*set to a negative number 1/2 of your width*/
+    margin-top: -60px; /*set to a negative number 1/2 of your height*/
+    margin-left: -60px; /*set to a negative number 1/2 of your width*/
    background-image: url('/courier-app/pictures/hushpuppydude.png');
     background-color: white;
     position:fixed;
