@@ -49,9 +49,8 @@ body{
 
 
 .landing-block-title {
-	padding-left:20%;
-  height: 12em;
-  display: flex;
+	padding-left:15%;
+ 
   align-items: center;
 	text-align:center;
 font-style:italic;
