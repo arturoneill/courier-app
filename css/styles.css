@@ -26,7 +26,7 @@ body{
 	margin-bottom: 5px;	
 }
 
-landing-block:hover, landing-block:focus, landing-block:active {
+.landing-block:hover, .landing-block:focus, .landing-block:active {
 	opacity: 0.6;
 }
 	
