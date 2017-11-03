@@ -43,14 +43,10 @@ body{
 	/*opacity:0.3;*/
 	/*background: rgba(255, 255, 255, .8);*/
 	background-image:none;
-}
-
-.landing-block landing-block-title:hover, .landing-block landing-block-title:focus, .landing-block landing-block-title:active {
-	/*opacity:0.3;*/
-	/*background: rgba(255, 255, 255, .8);*/
-	background-image:none;
 	color:black;
 }
+
+
 
 .landing-block-title {
 	width:100%;
