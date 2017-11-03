@@ -14,10 +14,10 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 var hp = {};
 
 var homeHtmlUrl = "snippets/landing.html";
-var allCategoriesUrl =
+var allRestaurantsUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
-var categoriesTitleHtml = "snippets/restaurants-title-snippet.html";
-var categoryHtml = "snippets/restaurants-snippet.html";
+var restaurantsTitleHtml = "snippets/restaurants-title-snippet.html";
+var restaurantsHtml = "snippets/restaurants-snippet.html";
 var menuItemsUrl =
   "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
 var menuItemsTitleHtml = "snippets/menu-items-title.html";
