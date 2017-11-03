@@ -276,7 +276,7 @@ div>a:hover, div>a:focus, div>a:active {
 	}
 	
 li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
-        background-color:DodgerBlue;
+        background-color:#75daff;
         color: white;
 	   opacity:0.75;
     
