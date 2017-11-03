@@ -32,6 +32,12 @@ body{
 	margin-bottom: 5px;	
 }
 
+.landing-block div {
+
+	opacity:1;
+}
+		
+}
 .landing-block:hover, .landing-block:focus, .landing-block:active {
 	opacity: 0.6;
 }
