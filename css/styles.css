@@ -73,20 +73,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-#cyclist {
 
-    top: 100%;
-    left: 50%;
-    width:150px;
-    height:150px;
-    border-radius:50%;
-    margin-top: -150px; /*set to a negative number 1/2 of your height*/
-    margin-left: -75px; /*set to a negative number 1/2 of your width*/
-   background-image: url('/courier-app/pictures/hushpuppydude.png');
-    background-color: white;
-    position:fixed;
-
-}
 
 
 .category-tile {
@@ -341,6 +328,21 @@ div>a:hover, div>a:focus, div>a:active {
 /*----------------------------LARGE SCREEN ONLY---------------------------------*/ 
 
 @media screen and (min-width: 767px){
+	
+	#cyclist {
+
+    top: 100%;
+    left: 50%;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin-top: -150px; /*set to a negative number 1/2 of your height*/
+    margin-left: -75px; /*set to a negative number 1/2 of your width*/
+   background-image: url('/courier-app/pictures/hushpuppydude.png');
+    background-color: white;
+    position:fixed;
+
+}
   
  #collapsable-nav {
   background-color:white;
@@ -437,7 +439,9 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
 	
-
+#cyclist {
+	display:none;
+	}
 		
 	
 	.tricircle {
