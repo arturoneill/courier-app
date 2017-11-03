@@ -37,11 +37,7 @@ body{
 }
 
 
-.landing-block div {
-
-	opacity:1;
-}
-		
+	
 
 .landing-block:hover, .landing-block:focus, .landing-block:active {
 	opacity:0.3;
@@ -58,7 +54,32 @@ body{
 .landing-block-title {
 	text-decoration:none;
 }
-	
+
+#restaurant-landing {
+
+    top: 40% ;
+    left:50%;
+    width:300px;
+    height:60px;   
+    margin-top: -30px; /*set to a negative number 1/2 of your height*/
+    margin-left: -150px; /*set to a negative number 1/2 of your width*/
+    position:fixed;
+
+}
+
+#errand-landing {
+
+    top: 60% ;
+    left:50%;
+    width:300px;
+    height:60px;   
+    margin-top: -30px; /*set to a negative number 1/2 of your height*/
+    margin-left: -150px; /*set to a negative number 1/2 of your width*/
+    position:fixed;
+
+}
+
+
 	
 	h1 {
     font-family: 'Nunito', sans-serif;
