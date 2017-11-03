@@ -53,6 +53,7 @@ body{
 }
 
 .landing-block-title {
+	width:100%;
   height: 11em;
   display: flex;
   align-items: center;
