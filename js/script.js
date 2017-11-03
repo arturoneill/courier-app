@@ -14,7 +14,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 var hp = {};
 
 var homeHtmlUrl = "snippets/landing.html";
-var allRestaurantsUrl =
+var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
 var restaurantsTitleHtml = "snippets/restaurants-title-snippet.html";
 var restaurantsHtml = "snippets/restaurants-snippet.html";
