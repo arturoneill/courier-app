@@ -167,19 +167,19 @@ hp.loadMenuItems = function (categoryShort) {
 function buildAndShowCategoriesHTML (categories) {
   // Load title snippet of categories page
   $ajaxUtils.sendGetRequest(
-    categoriesTitleHtml,
+    restaurantsTitleHtml,
     function (restaurantsTitleHtml) {
       // Retrieve single category snippet
       $ajaxUtils.sendGetRequest(
-        categoryHtml,
-        function (categoryHtml) {
+        restaurantsHtml,
+        function (restaurantsHtml) {
           // Switch CSS class active to menu button
           //switchMenuToActive();
 
           var categoriesViewHtml =
             buildCategoriesViewHtml(categories,
                                     restaurantsTitleHtml,
-                                    categoryHtml);
+                                    restaurantsHtml);
           insertHtml("#main-content", categoriesViewHtml);
         },
         false);
@@ -192,7 +192,7 @@ function buildAndShowCategoriesHTML (categories) {
 // build categories view HTML to be inserted into page
 function buildCategoriesViewHtml(categories,
                                  restaurantsTitleHtml,
-                                 categoryHtml) {
+                                 restaurantsHtml) {
 
   var finalHtml = restaurantsTitleHtml;
   finalHtml += "<section class='row'>";
