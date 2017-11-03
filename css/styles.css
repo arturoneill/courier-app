@@ -135,6 +135,7 @@ footer {
 
 .navbar-default .navbar-brand {
     font-size: 1.5em;
+	color: black;
    font-weight: 800;
 	font-family: 'Source-Sans-Pro', sans-serif;
 	    text-shadow: 2px 2px 0px #75daff;
