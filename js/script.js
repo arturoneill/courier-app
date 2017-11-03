@@ -11,13 +11,13 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 (function (global) {
 
-var hp = {};
+var dc = {};
 
 var homeHtmlUrl = "snippets/landing.html";
 var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
-var restaurantsTitleHtml = "snippets/restaurants-title-snippet.html";
-var restaurantsHtml = "snippets/restaurants-snippet.html";
+var categoriesTitleHtml = "snippets/restaurants-title-snippet.html";
+var categoryHtml = "snippets/restaurants-snippet.html";
 var menuItemsUrl =
   "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
 var menuItemsTitleHtml = "snippets/menu-items-title.html";
@@ -32,7 +32,7 @@ var insertHtml = function (selector, html) {
 // Show loading icon inside element identified by 'selector'.
 var showLoading = function (selector) {
   var html = "<div class='text-center'>";
-  html += "<img src='pictures/bubblemation.gif'></div>";
+  html += "<img src='images/ajax-loader.gif'></div>";
   insertHtml(selector, html);
 };
 
@@ -46,19 +46,19 @@ var insertProperty = function (string, propName, propValue) {
 };
 
 // Remove the class 'active' from home and switch to Menu button
-//var switchMenuToActive = function () {
+var switchMenuToActive = function () {
   // Remove 'active' from home button
-  //var classes = document.querySelector("#navHomeButton").className;
- // classes = classes.replace(new RegExp("active", "g"), "");
- // document.querySelector("#navHomeButton").className = classes;
+  var classes = document.querySelector("#navHomeButton").className;
+  classes = classes.replace(new RegExp("active", "g"), "");
+  document.querySelector("#navHomeButton").className = classes;
 
   // Add 'active' to menu button if not already there
- // classes = document.querySelector("#navMenuButton").className;
-  //if (classes.indexOf("active") === -1) {
-    //classes += " active";
-   // document.querySelector("#navMenuButton").className = classes;
-  //}
-//};
+  classes = document.querySelector("#navMenuButton").className;
+  if (classes.indexOf("active") === -1) {
+    classes += " active";
+    document.querySelector("#navMenuButton").className = classes;
+  }
+};
 
 // On page load (before images or CSS)
 document.addEventListener("DOMContentLoaded", function (event) {
@@ -111,9 +111,9 @@ function buildAndShowHomeHTML(categories) {
       // Look through this code for an example of how to do use the insertProperty function.
       // WARNING! You are inserting something that will have to result in a valid Javascript
       // syntax because the substitution of {{randomCategoryShortName}} becomes an argument
-      // being passed into the $hp.loadMenuItems function. Think about what that argument needs
+      // being passed into the $dc.loadMenuItems function. Think about what that argument needs
       // to look like. For example, a valid call would look something like this:
-      // $hp.loadMenuItems('L')
+      // $dc.loadMenuItems('L')
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
@@ -144,17 +144,17 @@ function chooseRandomCategory (categories) {
 
 
 // Load the menu categories view
-hp.loadMenuCategories = function () {
+dc.loadMenuCategories = function () {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
-    allCategoriesURL,
+    allCategoriesUrl,
     buildAndShowCategoriesHTML);
 };
 
 
 // Load the menu items view
 // 'categoryShort' is a short_name for a category
-hp.loadMenuItems = function (categoryShort) {
+dc.loadMenuItems = function (categoryShort) {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
     menuItemsUrl + categoryShort,
@@ -167,19 +167,19 @@ hp.loadMenuItems = function (categoryShort) {
 function buildAndShowCategoriesHTML (categories) {
   // Load title snippet of categories page
   $ajaxUtils.sendGetRequest(
-    restaurantsTitleHtml,
-    function (restaurantsTitleHtml) {
+    categoriesTitleHtml,
+    function (categoriesTitleHtml) {
       // Retrieve single category snippet
       $ajaxUtils.sendGetRequest(
-        restaurantsHtml,
-        function (restaurantsHtml) {
+        categoryHtml,
+        function (categoryHtml) {
           // Switch CSS class active to menu button
-          //switchMenuToActive();
+          switchMenuToActive();
 
           var categoriesViewHtml =
             buildCategoriesViewHtml(categories,
-                                    restaurantsTitleHtml,
-                                    restaurantsHtml);
+                                    categoriesTitleHtml,
+                                    categoryHtml);
           insertHtml("#main-content", categoriesViewHtml);
         },
         false);
@@ -191,16 +191,16 @@ function buildAndShowCategoriesHTML (categories) {
 // Using categories data and snippets html
 // build categories view HTML to be inserted into page
 function buildCategoriesViewHtml(categories,
-                                 restaurantsTitleHtml,
-                                 restaurantsHtml) {
+                                 categoriesTitleHtml,
+                                 categoryHtml) {
 
-  var finalHtml = restaurantsTitleHtml;
+  var finalHtml = categoriesTitleHtml;
   finalHtml += "<section class='row'>";
 
   // Loop over categories
   for (var i = 0; i < categories.length; i++) {
     // Insert category values
-    var html = restaurantsHtml;
+    var html = categoryHtml;
     var name = "" + categories[i].name;
     var short_name = categories[i].short_name;
     html =
@@ -343,6 +343,6 @@ function insertItemPortionName(html,
 }
 
 
-global.$hp = hp;
+global.$dc = dc;
 
 })(window);
