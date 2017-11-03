@@ -42,8 +42,8 @@ body{
 .landing-block:hover, .landing-block:focus, .landing-block:active {
 	/*opacity:0.3;*/
 	/*background: rgba(255, 255, 255, .8);*/
-	background-image:none;
-	color:black;
+	background:#75daff;
+	
 }
 
 
