@@ -77,7 +77,7 @@ h2 {
 }
 
 
-category-tile {
+.category-tile {
     position: relative;
     border: 2px solid #3F0C1F;
     overflow: hidden;
