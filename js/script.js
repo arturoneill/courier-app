@@ -174,7 +174,7 @@ function buildAndShowCategoriesHTML (categories) {
         categoryHtml,
         function (categoryHtml) {
           // Switch CSS class active to menu button
-          switchMenuToActive();
+          //switchMenuToActive();
 
           var categoriesViewHtml =
             buildCategoriesViewHtml(categories,
