@@ -168,7 +168,7 @@ function buildAndShowCategoriesHTML (categories) {
   // Load title snippet of categories page
   $ajaxUtils.sendGetRequest(
     categoriesTitleHtml,
-    function (categoriesTitleHtml) {
+    function (restaurantsTitleHtml) {
       // Retrieve single category snippet
       $ajaxUtils.sendGetRequest(
         categoryHtml,
@@ -178,7 +178,7 @@ function buildAndShowCategoriesHTML (categories) {
 
           var categoriesViewHtml =
             buildCategoriesViewHtml(categories,
-                                    categoriesTitleHtml,
+                                    restaurantsTitleHtml,
                                     categoryHtml);
           insertHtml("#main-content", categoriesViewHtml);
         },
@@ -191,10 +191,10 @@ function buildAndShowCategoriesHTML (categories) {
 // Using categories data and snippets html
 // build categories view HTML to be inserted into page
 function buildCategoriesViewHtml(categories,
-                                 categoriesTitleHtml,
+                                 restaurantsTitleHtml,
                                  categoryHtml) {
 
-  var finalHtml = categoriesTitleHtml;
+  var finalHtml = restaurantsTitleHtml;
   finalHtml += "<section class='row'>";
 
   // Loop over categories
