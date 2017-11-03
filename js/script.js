@@ -11,7 +11,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 (function (global) {
 
-var dc = {};
+var hp = {};
 
 var homeHtmlUrl = "snippets/landing.html";
 var allCategoriesUrl =
@@ -111,9 +111,9 @@ function buildAndShowHomeHTML(categories) {
       // Look through this code for an example of how to do use the insertProperty function.
       // WARNING! You are inserting something that will have to result in a valid Javascript
       // syntax because the substitution of {{randomCategoryShortName}} becomes an argument
-      // being passed into the $dc.loadMenuItems function. Think about what that argument needs
+      // being passed into the $hp.loadMenuItems function. Think about what that argument needs
       // to look like. For example, a valid call would look something like this:
-      // $dc.loadMenuItems('L')
+      // $hp.loadMenuItems('L')
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
@@ -343,6 +343,6 @@ function insertItemPortionName(html,
 }
 
 
-global.$dc = dc;
+global.$hp = hp;
 
 })(window);
