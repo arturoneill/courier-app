@@ -42,7 +42,7 @@ body{
 		
 
 .landing-block:hover, .landing-block:focus, .landing-block:active {
-	opacity: 0.6;
+	background: rgba(255, 255, 255, .8);
 }
 
 .landing-block-title {
