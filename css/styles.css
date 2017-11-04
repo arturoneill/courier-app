@@ -51,7 +51,7 @@ body{
  align-items: center;
 	text-align:center;
 font-style:italic;
-	color:white;
+	
 	text-decoration:none;
 	font-size:40px;
 	font-weight:800;
@@ -353,6 +353,10 @@ div>a:hover, div>a:focus, div>a:active {
 
 @media screen and (min-width: 767px){
 	
+	.landing-block-title {
+		color:black;
+	}
+	
 		.landing-block1 {
 	min-height:50%;
 	margin-bottom: 5px;
@@ -368,7 +372,7 @@ div>a:hover, div>a:focus, div>a:active {
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
-	background-image: url('/courier-app/pictures/circlelogo.png');
+	background-image: url('/courier-app/pictures/circlelogotransparent.png');
 }
 	
 	
@@ -484,6 +488,9 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
 	
+	.landing-block-title {
+		color:white;
+	}
 	
 	.landing-block1 {
 	min-height:50%;
