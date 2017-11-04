@@ -509,14 +509,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 }
 
 
-.landing-block2 {
-	min-height:50%;
-	margin-bottom: 5px;
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-	background-image: url('/courier-app/pictures/bluebiker.png');
-}
+
 
 	
 /*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
@@ -564,4 +557,21 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 }
 }
 
+
+/*-----------------------EXTRA SMALL SCREEN SIZES------------------------*/
+@media screen and (max-width: 400px){
+	
+	.landing-block2 {
+	min-height:50%;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-image: url('/courier-app/pictures/bluebiker.png');
+}
+	
+}
+	
+	
+	
 
