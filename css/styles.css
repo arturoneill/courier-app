@@ -23,23 +23,35 @@ body{
 	
 }
 
-.landing-block {
+.landing-block1 {
 	min-height:50%;
 	margin-bottom: 5px;
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
 	background-image: url('/courier-app/pictures/circlelogo.png');
-    /*background: rgb(255, 255, 255); /* Fall-back for browsers that don't  support rgba */
-  /*  background: rgba(255, 255, 255, .5);*/
+}
 
-
+.landing-block2 {
+	min-height:50%;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-image: url('/courier-app/pictures/bluebiker.png');
 }
 
 
 	
 
-.landing-block:hover, .landing-block:focus, .landing-block:active {
+.landing-block1:hover, .landing-block1:focus, .landing-block1:active {
+	/*opacity:0.3;*/
+	/*background: rgba(255, 255, 255, .8);*/
+	background:#75daff;
+	
+}
+
+.landing-block2:hover, .landing-block2:focus, .landing-block2:active {
 	/*opacity:0.3;*/
 	/*background: rgba(255, 255, 255, .8);*/
 	background:#75daff;
@@ -355,6 +367,17 @@ div>a:hover, div>a:focus, div>a:active {
 
 @media screen and (min-width: 767px){
 	
+.landing-block2 {
+	min-height:50%;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-image: url('/courier-app/pictures/circlelogo.png');
+}	
+	
+	
+	
 	#cyclist {
 
     top: 95%;
@@ -480,6 +503,17 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 
     }
 }
+
+
+.landing-block2 {
+	min-height:50%;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-image: url('/courier-app/pictures/bluebiker.png');
+}
+
 	
 /*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
 	 .circle:nth-child(2) {
