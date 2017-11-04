@@ -112,6 +112,18 @@ h2 {
     opacity: .7;
 }
 
+#menu-categories-title {
+	font-weight:800;
+	margin-top:10px;
+	font-style:italic;
+	
+}
+
+.description-text {
+	font-size:1.2em;
+	margin-bottom:10px;
+}
+
 
 
 /*-----------------FIREBASE SHIT---------------------------------------------------------------*/
