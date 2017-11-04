@@ -434,6 +434,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
     bottom: 0px;
     width: 100%;
 }
+
     
 
    
@@ -483,7 +484,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 	opacity:0.75;
 }
 	
-
+}
 
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
