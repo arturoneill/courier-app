@@ -38,7 +38,7 @@ body{
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
-	background-image: url('/courier-app/pictures/bluebiker.png');
+	background-image: url('/courier-app/pictures/circlelogo.png');
 }
 
 
@@ -367,14 +367,7 @@ div>a:hover, div>a:focus, div>a:active {
 
 @media screen and (min-width: 767px){
 	
-.landing-block2 {
-	min-height:50%;
-	margin-bottom: 5px;
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-	background-image: url('/courier-app/pictures/circlelogo.png');
-}	
+
 	
 	
 	
@@ -488,6 +481,16 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
+	
+	
+	.landing-block2 {
+	min-height:50%;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-image: url('/courier-app/pictures/bluebiker.png');
+}	
 	
 #cyclist {
 	display:none;
