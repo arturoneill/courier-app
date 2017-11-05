@@ -342,7 +342,31 @@ function insertItemPortionName(html,
   html = insertProperty(html, portionPropName, portionValue);
   return html;
 }
+  
+  
+  
+  // Load the menu categories view
+hp.loadErrands = function () {
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    buildAndShowErrandsHTML);
+};
 
+
+
+// Builds HTML for the errands page from the errands-snippet
+function buildAndShowErrandsHTML (errandsHtml) {
+  // Load errands-snippet
+  $ajaxUtils.sendGetRequest(
+    errandsHtml,
+    
+    insertHtml("#main-content", errandsHtml);
+       
+        false);
+   
+}
+
+        
 
 global.$hp = hp;
 
