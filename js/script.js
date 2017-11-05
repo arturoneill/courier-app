@@ -343,38 +343,37 @@ function insertItemPortionName(html,
   return html;
 }
   
-  hp.loadErrands = function () {
+hp.loadErrands = function () {
   showLoading("#main-content");
-  $ajaxUtils.sendGetRequest(
-    errandsHtml,
-    buildAndShowErrandsHtml);
-};
-  
-  function buildAndShowErrandsHtml (categories) {
-  // Load title snippet of categories page
+$ajaxUtils.sendGetRequest(
+  allCategoriesUrl,
+  buildAndShowErrandsHTML,// ***** <---- TODO: STEP 1: Substitute [...] ******
+  true); // Explicitely setting the flag to get JSON from server processed into an object literal
+});
+// *** finish **
+
+
+// Builds HTML for the home page based on categories array
+// returned from the server.
+function buildAndShowErrandsHTML(categories) {
+
+  // Load home snippet page
   $ajaxUtils.sendGetRequest(
     errandsHtml,
     function (errandsHtml) {
-     
+ 
+       
+       var errandsHtmlToInsertIntoMainPage = insertProperty( errandsHtml);
 
-          var errandsViewHtml =
-            buildErrandsViewHtml(errandsHtml);
-          insertHtml("#main-content", errandsViewHtml);
-        },
-        false);
-   
+
+      // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
+      // Use the existing insertHtml function for that purpose. Look through this code for an example
+      // of how to do that.
+      // ....
+insertHtml("#main-content", errandsHtmlToInsertIntoMainPage);
+    },
+    false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
 }
-
-
-// Using categories data and snippets html
-// build categories view HTML to be inserted into page
-function buildErrandsViewHtml(errandsHtml) {
-
-  var finalHtml = errandsHtml;
-
-  return finalHtml;
-}
-
 
 
 
