@@ -363,6 +363,7 @@ function buildAndShowErrandsHTML (errandsHtml) {
     var errandsViewHtml =
             buildErrandsViewHtml(errandsHtml);
     insertHtml("#main-content", errandsViewHtml);
+      },
        
         false);
 
