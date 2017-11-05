@@ -346,16 +346,14 @@ function insertItemPortionName(html,
 hp.loadErrands = function () {
   showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
-  allCategoriesUrl,
-  buildAndShowErrandsHTML,// ***** <---- TODO: STEP 1: Substitute [...] ******
-  true); // Explicitely setting the flag to get JSON from server processed into an object literal
+  buildAndShowErrandsHTML); // Explicitely setting the flag to get JSON from server processed into an object literal
 });
 // *** finish **
 
 
 // Builds HTML for the home page based on categories array
 // returned from the server.
-function buildAndShowErrandsHTML(categories) {
+function buildAndShowErrandsHTML() {
 
   // Load home snippet page
   $ajaxUtils.sendGetRequest(
