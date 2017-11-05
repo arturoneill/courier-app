@@ -354,7 +354,7 @@ hp.loadErrands = function () {
 
 
 
-function showErrandsHTML () {
+function showErrandsHTML (errandsHtml) {
       
     insertHtml("#main-content", errandsHtml);
       }
