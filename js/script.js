@@ -358,6 +358,8 @@ function buildAndShowErrandsHTML (errandsHtml) {
   // Load errands-snippet
   $ajaxUtils.sendGetRequest(
     errandsHtml,
+    
+    function (errandsHtml) {
     var errandsViewHtml =
             buildErrandsViewHtml(errandsHtml);
     insertHtml("#main-content", errandsViewHtml);
