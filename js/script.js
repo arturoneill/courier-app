@@ -344,14 +344,6 @@ function insertItemPortionName(html,
 }
   
   
-  
-  // Load the menu categories view
-hp.loadErrands = function () {
-  showLoading("#main-content");
-  $ajaxUtils.sendGetRequest(
-   insertHtml("#main-content", errandsHtml);
-  );
-};
 
 
 
