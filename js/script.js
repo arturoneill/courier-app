@@ -348,7 +348,7 @@ hp.loadErrands = function () {
 $ajaxUtils.sendGetRequest(
   buildAndShowErrandsHTML,
 false); // Explicitely setting the flag to get JSON from server processed into an object literal
-});
+};
 // *** finish **
 
 
