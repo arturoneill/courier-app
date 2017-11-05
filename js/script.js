@@ -362,7 +362,7 @@ function buildAndShowErrandsHTML (errandsHtml) {
 
 
    
-}
+
 
         
 
