@@ -343,7 +343,40 @@ function insertItemPortionName(html,
   return html;
 }
   
+  hp.loadErrands = function () {
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    errandsHtml,
+    buildAndShowErrandsHtml);
+};
   
+  function buildAndShowErrandsHtml (categories) {
+  // Load title snippet of categories page
+  $ajaxUtils.sendGetRequest(
+    errandsHtml,
+    function (errandsHtml) {
+     
+
+          var errandsViewHtml =
+            buildErrandsViewHtml(errandsHtml);
+          insertHtml("#main-content", errandsViewHtml);
+        },
+        false);
+   
+}
+
+
+// Using categories data and snippets html
+// build categories view HTML to be inserted into page
+function buildErrandsViewHtml(errandsHtml) {
+
+  var finalHtml = errandsHtml;
+
+  return finalHtml;
+}
+
+
+
 
 
 
