@@ -354,15 +354,17 @@ hp.loadErrands = function () {
 
 
 
-// Builds HTML for the errands page from the errands-snippet
 function buildAndShowErrandsHTML (errandsHtml) {
   // Load errands-snippet
   $ajaxUtils.sendGetRequest(
     errandsHtml,
-    
-    insertHtml("#main-content", errandsHtml);
+    var errandsViewHtml =
+            buildErrandsViewHtml(errandsHtml);
+    insertHtml("#main-content", errandsViewHtml);
        
         false);
+
+
    
 }
 
