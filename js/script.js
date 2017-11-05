@@ -349,12 +349,12 @@ function insertItemPortionName(html,
 hp.loadErrands = function () {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
-    buildAndShowErrandsHTML);
+   showErrandsHTML);
 };
 
 
 
-function buildAndShowErrandsHTML (errandsHtml) {
+function showErrandsHTML () {
       
     insertHtml("#main-content", errandsHtml);
       }
