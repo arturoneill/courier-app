@@ -346,7 +346,8 @@ function insertItemPortionName(html,
 hp.loadErrands = function () {
   showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
-  buildAndShowErrandsHTML); // Explicitely setting the flag to get JSON from server processed into an object literal
+  buildAndShowErrandsHTML,
+false); // Explicitely setting the flag to get JSON from server processed into an object literal
 });
 // *** finish **
 
@@ -361,7 +362,7 @@ function buildAndShowErrandsHTML() {
     function (errandsHtml) {
  
        
-       var errandsHtmlToInsertIntoMainPage = insertProperty( errandsHtml);
+       var errandsHtmlToInsertIntoMainPage = insertProperty(errandsHtml);
 
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
