@@ -1,9 +1,16 @@
+// Consider having separate directories for third-party code that you have copied directly from a vendor.
+
+// It's generally a more satisfying experience to *not* build HTML code in JavaScript and instead using something like AngularJS and/or
+// React to build the HTML. JavaScript code is best suited for responding to user input, fetching data from a server, and processing that data.
+// Building the HTML "view" code is something best done with other tools that are purpose-built for that. Review the MVC concept. Your "view" is the
+// HTML page and your controller and model can live as JavaScript files.
+
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
   // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
   $("#navbarToggle").blur(function (event) {
     var screenWidth = window.innerWidth;
-    if (screenWidth < 768) {
+    if (screenWidth < 768) { // This is a "magic number". Assign this value to a variable that descibes what it is for.
       $("#collapsable-nav").collapse('hide');
     }
   });

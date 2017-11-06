@@ -9,6 +9,7 @@ html{
 	min-height:100%;
 }
 body{
+    // Fix indentation here
     font-family:'Nunito', sans-serif;
 	margin-bottom: 50px;
 	
@@ -24,7 +25,7 @@ body{
 }
 
 
-
+// Remove excess white space here and elsewhere.
 
 
 
@@ -111,7 +112,8 @@ h2 {
 }
 
 
-
+// When developing client-facing software keep all comments and documentation clean because you never
+// know if your client will see your source code, creating an embarassing situation for your company.
 /*-----------------FIREBASE SHIT---------------------------------------------------------------*/
 * {
   box-sizing: border-box;
@@ -120,6 +122,9 @@ h2 {
 body {
   margin: 0;
 }
+
+// Do not commit commented-out code. If you need to remove code but hang on to those changes, then
+// just delete it. The old code will be retrievable in revision control.
 
 /*#container {
   max-width: 600px;
@@ -336,7 +341,8 @@ div>a:hover, div>a:focus, div>a:active {
 }
 
    
-
+// Good to see you coding using responsive design!
+// Consider splitting up this file into one stylesheet per screen size.
 /*----------------------------LARGE SCREEN ONLY---------------------------------*/ 
 
 @media screen and (min-width: 767px){

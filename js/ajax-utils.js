@@ -5,6 +5,8 @@ var ajaxUtils = {};
 
 
 // Returns an HTTP request object
+  
+// Consider using jQuery instead of rolling your own ajax tools.
 function getRequestObject() {
   if (window.XMLHttpRequest) {
     return (new XMLHttpRequest());
