@@ -123,6 +123,11 @@ body {
   margin: 0;
 }
 
+li > li {
+list-style-type:none;
+margin-left:10px;
+}
+
 /*Do not commit commented-out code. If you need to remove code but hang on to those changes, then*/
 /* just delete it. The old code will be retrievable in revision control.*/
 
@@ -204,10 +209,7 @@ footer {
     overflow:hidden;
 }
 
-li>li {
-list-style:none;
-margin-left:5px;
-}
+
 /*-----------------Header----------------------------------------------------------------------*/
 #header-nav{
     background-color: white;
