@@ -204,6 +204,10 @@ footer {
     overflow:hidden;
 }
 
+li>li {
+list-style:none;
+margin-left:5px;
+}
 /*-----------------Header----------------------------------------------------------------------*/
 #header-nav{
     background-color: white;
